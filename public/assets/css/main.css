@@ -1,0 +1,637 @@
+html, body{
+  margin: 0 !important;
+  padding: 0 !important; 
+  font-size:14px !important;
+}
+.row{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.clr{
+  clear: both;
+}
+.ui-widget{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"!important;
+} 
+@media only screen and (min-width:992px) and (max-width:1258px) {
+  html, body{
+    font-size:10px !important;
+  }
+}
+
+/*-------------------------------------------*/
+.content-header {
+    padding: 10px 0.5rem!important;
+}
+.mt-2, .my-2 {   
+    margin-bottom: 30px;
+}
+.main-header{
+  background-color: #F39309;
+  height: 55px;
+}
+#logo{
+  color: #fff;
+}
+.main-header .nav-link{
+  height: auto;
+}
+.brand-logo{
+  background-color: #EE6304;
+  text-align: center;
+  width: 100%;
+}
+.brand-logo img{
+  width: 63%;
+}
+[class*=sidebar-dark-] {
+    background-color: transparent;
+}
+#search{
+  background-color: #fff;
+  border-radius: 5px;
+}
+/*-----------------*/
+/*.booking{
+  text-align: center;
+}*/
+.booking img{
+  /*width: 25%;*/
+  margin-bottom: 8px;
+}
+.book{
+  color: #000;
+ /* text-align: center;*/
+  font-size: 16px;
+    font-weight: 600;
+}
+.seva{
+    color: #000;
+    font-size: 16px;
+     font-weight: 600;
+}
+.pooja{
+    color: #6AB31C;
+   /* text-align: center;*/
+    font-size: 16px;
+     font-weight: 600;
+}
+.receipt{
+  color: #DA4A61;
+  font-size: 16px;
+  font-weight: 600;
+}
+.admin{
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+#content-main{
+  padding-top: 30px;
+}
+.main-sidebar{
+  overflow-y:initial!important;
+}
+.booking i{
+  color: #000;
+ /* position: absolute;
+  top: 50px;
+  left: 110px;*/
+  top: 1.7rem !important;
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active{
+  background-color: transparent!important;
+}
+[class*=sidebar-dark-] .nav-sidebar>.nav-item>.nav-link.active {
+  box-shadow: initial!important;
+}
+.nav-treeview>.nav-item>.nav-link:hover{
+  color:#007BFF!important;
+}
+/*--.nav-treeview i{
+   color: #E8420E;
+}--*/
+.nav-treeview>.nav-item>.nav-link{
+  color:#000!important;
+}
+.nav-treeview>.nav-item>.nav-link.active{
+  color:#007BFF!important;
+}
+.sidebar{
+    background-color: #fff;
+    margin-left: -10px;
+}
+@media only screen and (min-height: 320px) and (max-width: 640px) {
+  .sidebar{
+    background-color: #fff;
+  }
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 991px) {
+    .sidebar{
+      background-color: #fff;
+  }
+
+}
+
+/* =========================== LOGIN ===================================*/
+.Login{
+  padding: 10% 0%;
+}
+.signin-form{
+  background-color: #fff;
+  padding: 3% 3%!important;
+}
+.i-smart{
+  padding: 10%;
+}
+.i-smart h2{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-size: 35px;
+   float: right;
+}
+.signin-form h3{
+  color: #142366;
+}
+.signin-form button{
+  background-color: #142366;
+  border: none;
+}
+.signin-form button:hover{
+   background-color: #142366;
+}
+.signin-form a{
+  text-decoration: none;
+  color: #142395;
+  font-weight: 500;
+}
+.signin-form a:hover{
+  text-decoration: none;
+  color: #2185FD;
+}
+.form-check{
+  color: #4359AE;
+  font-weight: 600;
+}
+
+/* ========================= INSTITUTE ==============================*/
+.Institute-content{
+    padding: 20px 20px;
+    background: #fff;
+}
+.Institute-content h5{
+    color: #080808;
+    padding: 8px;
+    font-weight: 600;
+    border-bottom: 1px solid #adadad;
+    background-color: #fff;
+}
+.Institute-content table{
+  margin-top: 20px;
+}
+label{
+  font-weight: 500!important;
+  padding-right: 10px;
+}
+.subscribe{
+  color: #000;
+}
+.subscribe:hover{
+  color: #000;
+}
+/* ====================== SEVA-MASTER =============================*/
+.seva-content{
+  padding: 20px 20px;
+}
+.seva-master{
+  border: 1px solid #000;
+  padding: 8px 8px;
+  background: #fff;
+}
+.seva-master h5{
+  color: #080808;
+  padding: 8px;
+  font-weight: 600;
+  border-bottom: 1px solid #adadad;
+}
+.seva-master button{
+  float: right;
+  border: none;
+}
+.seva-master table{
+  margin-top: 20px;
+}
+.seva-master table th{
+  background-color: #F39309;
+  color: #fff;
+  font-size: 14px;
+}
+.add-seva{
+  background-color: #007BFF;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.add-seva:hover{
+  color: #fff;
+}
+
+/* ====================== PUDAVATTU BOOKING =======================*/
+.pudavattu-booking{
+   padding: 10px 10px;
+}
+.pudavattu-booking h5{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 8px;
+    border-bottom: 1px solid #adadad;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+/*#check{
+  text-align: center;
+  display: block;
+  float: inherit;
+}*/
+.booking-detail{
+    background-color: #fff;
+    padding: 10px 10px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.book-detail{
+  padding-bottom: 10px;
+}
+.puda-detail{
+   padding: 10px 10px;
+}
+.puda-detail h5{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 8px;
+    border-bottom: 1px solid #adadad;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.main-seva{
+  padding: 10px 10px;
+}
+.main-seva h5{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 8px;
+    border-bottom: 1px solid #adadad;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.payment{
+  padding: 10px 10px;
+}
+.payment h5{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 8px;
+    border-bottom: 1px solid #adadad;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.add-info{
+   padding: 10px 10px;
+}
+.add-info h5{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 8px;
+    border-bottom: 1px solid #adadad;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.seva-date{
+  padding: 10px 10px;
+}
+.seva-date h5{
+    background-color: #ffffff;
+    color: #080808;
+    padding: 8px;
+    border-bottom: 1px solid #adadad;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#box_bg{
+  background: #efefef;
+    border-radius: 7px;
+    width: 100%;
+    height: 65px;
+    padding: 6px 9px;
+}
+#box_bg1{
+  background: #efefef;
+    border-radius: 7px;
+    width: 19%;
+    height: 55px;
+    padding: 6px 9px;
+    margin: 10px;
+}
+.seva-box{
+    /*--border: 1px solid #C5C5C5;
+    padding: 30px;
+    height: 290px;---*/
+    box-shadow: 0px 0px 10px lightgrey;
+    padding: 20px;
+}
+.seva-box-1{
+    /*--border: 1px solid #C5C5C5;
+    padding: 30px;
+    height: 170px;--*/
+    box-shadow: 0px 0px 10px lightgrey;
+    padding: 20px;
+}
+.seva-list{
+  list-style-type: none;
+}
+.seva-list li{
+  padding: 8px;
+}
+.submission{
+    padding: 10px 20px;
+    float: right;
+}
+#seva-label{
+    float: initial;
+    text-align: center;
+    display: block;
+}
+#seva-radio{
+  float: initial;
+  margin-right: 15px;
+}
+.accordion label{
+  float: right;
+  padding-top:8px;
+}
+#seva-include input{
+  margin: 0 10px;
+}
+.card-header span{
+    float: right;
+    font-size: 20px;
+}
+.btn-link .glyphicon-plus:before {
+    content: "\2212";
+}
+.collapsed .glyphicon-plus:before {
+    content:  "\2b";
+}
+.myaccordion {
+ box-shadow: 0 0 1px rgba(0,0,0,0.1);
+}
+.spacing{
+    background: #fff;
+    padding: 30px 20px;
+}
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+}
+
+.myaccordion .card-header {
+  border-bottom-color: #EDEFF0;
+  background: transparent;
+}
+
+.myaccordion .fa-stack {
+  font-size: 10px;
+}
+
+.myaccordion .btn {
+  width: 100%;
+  font-weight: bold;
+  color: #004987;
+  padding: 0;
+}
+
+.myaccordion .btn-link:hover,
+.myaccordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.myaccordion li + li {
+  margin-top: 10px;
+}
+.card-header{
+  padding: 5px 20px;
+}
+.accordion .card{
+  border-radius: 6px;
+}
+.btn-link:hover{
+    text-decoration:none!important;
+}
+@media only screen and (min-height: 320px) and (max-width: 640px) {
+  .accordion label{
+    float: initial;
+  }  
+  .seva-box{
+    height: auto;
+  }
+}
+@media only screen and (min-width:641px) and (max-width:991px) {
+  .accordion label{
+    font-size: 11px;
+  }
+  #seva-date{
+    width: 100%;
+  }
+  .mob{
+     width:98px!important; 
+  }
+  .submission{
+      padding:initial!important;
+      margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1258px) {
+    
+  #seva-date{
+    width: 100%;
+  }
+
+}
+
+/*-------------------------------------------- Subscription -----------------------------------------------*/
+
+nav > .nav.nav-tabs{
+
+    border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+    border: none;
+    padding: 18px 25px;
+    color:#000;
+    background:#fff;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #adadad;
+}
+.tab-content{
+    background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top: 5px solid #adadad;
+    border-bottom: 5px solid #adadad;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+    border: none;
+    background: #adadad;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+#sub_details{
+  padding: 10px;
+}
+
+
+/*------------------------------ Master --------------------------------*/
+
+.Master{
+  padding: 15px 15px;
+  background-color: #fff;
+}
+.master-head{
+  margin-bottom: -20px;
+}
+.master-table{
+  padding-top: 20px;
+}
+
+/*-------------------------- add-seva --------------------------------*/
+.Seva-add{
+  padding: 15px 10px;
+  background-color: #fff;
+}
+.Seva-add label{
+  float: right;
+  padding-top: 8px;
+}
+#yes{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#no{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.Seva-add table{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+@media only screen and (min-height: 320px) and (max-width: 640px) {
+  .Seva-add label{
+    float: initial;
+  }  
+
+}
+
+@media only screen and (min-width:641px) and (max-width:991px) {
+  .Seva-add label{
+    font-size: 10px;
+  }
+  .enable-on{
+      width:initial!important;
+  }
+  .rem{
+      width:100px!important;
+  }
+  .acc{
+      width:122px!important;
+  }
+  .special{
+      width:110px!important;
+  }
+
+}
+
+/*--------------------------- manage user ---------------------------*/
+.manage-user{
+  background-color: #fff;
+  padding: 15px 15px;
+}
+.manage-user table{
+  margin-top: 15px;
+}
+#myModal label{
+  float: right;
+  padding-top: 8px;
+}
+
+@media only screen and (min-height: 320px) and (max-width: 640px) {
+  #myModal label{
+    float: initial;
+ }   
+
+}
+
+/*----------------------------------communication letter --------------------------------*/
+.c-letter{
+  background-color: #fff;
+  padding: 15px 15px;
+}
+
+/*-------------------------------- devotee-master----------------------------------------*/
+.devotee-master{
+  background-color: #fff;
+  padding: 3% 3%;
+}
+
+/*----------------------------------pudavatu-detail ------------------------------------*/
+.pudavatu-detail{
+    background-color: #fff;
+     padding: 3% 3%;
+}
+.pudavatu-detail table{
+  margin-top: 20px;
+}
+
+/*-------------------------------General Booking----------------------------------------*/
+.general-booking{
+    background-color: #fff;
+    padding: 3% 3%;
+    margin:2%;
+}
+.general-booking h4{
+    color: #007BFF;
+    font-weight: 400;
+    border-bottom: 1px solid #efefef;
+    padding-bottom: 10px;
+}
+.general-booking label{
+  float: right;
+}
+
+
